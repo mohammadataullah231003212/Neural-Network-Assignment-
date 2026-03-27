@@ -26,7 +26,7 @@ After training, I used the model to predict outcomes on the test dataset.
 I evaluated the model using **accuracy score**, which measures the percentage of correct predictions.Here is the answer:
 Accuracy: 0.8879796527700984
 ## Link:
-https://colab.research.google.com/drive/1r0elaq0rmyleoA635A3JbQp9yJU1lhcG#scrollTo=RFSkdl6o4YhP
+https://colab.research.google.com/drive/1r0elaq0rmyleoA635A3JbQp9yJU1lhcG#scrollTo=59XSFUCC9ctG
 Can be accessed by:"ashrafur.c@eastdelta.edu.bd"
 ## **Note:**
 I did the coding in google colab and uploaded the .ipynb file here in the section where there suppose to be only code.
