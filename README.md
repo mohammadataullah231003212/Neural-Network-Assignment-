@@ -60,14 +60,14 @@ I applied Grid Search with cross-validation to find the best hyperparameters for
 After tuning, I evaluated the model again. I observed an improvement in accuracy and precision, although there was a trade-off with recall. This helped me understand how tuning affects model performance.
 
 
-\n Accuracy: 0.901249585314608
-\n Precision: 0.6546875
-\n Recall: 0.384051329055912
-\n F1 Score: 0.48411322934719814
+Accuracy: 0.901249585314608
+Precision: 0.6546875
+Recall: 0.384051329055912
+F1 Score: 0.48411322934719814
 
-\n Confusion Matrix:
- \n [[7731  221]
- \n [ 672  419]]
+Confusion Matrix:
+ [[7731  221]
+ [ 672  419]]
 
 Classification Report:
                precision    recall  f1-score   support
