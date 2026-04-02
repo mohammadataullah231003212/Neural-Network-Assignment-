@@ -4,7 +4,7 @@ A CNN that looks at chest X-ray images and tries to figure out if the person has
 
 ## What This Is
 
-I trained a convolutional neural network (CNN) on chest X-ray images to classify them as either **NORMAL** or **PNEUMONIA**. The main goal was to catch as many pneumonia cases as possible, because missing a sick patient is way worse than a false alarm.
+In this model I trained a CNN on chest X-ray images to classify them as either **NORMAL** or **PNEUMONIA**. The main goal was to catch as many pneumonia cases as possible.
 
 
 ## Dataset
