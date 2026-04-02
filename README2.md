@@ -10,9 +10,9 @@ A Logistic Regression Model to predict if a bank customer will subscribe to a te
 
 ## Methodology (Step by Step)
 
-- Imported all required libraries
+- imported all required libraries
 - Loaded the dataset using pandas with `;` as delimiter
-- Explored the data to understand structure and class distribution
+- explored the data to understand structure and class distribution
 - Detected anomalies like `-1` in `pdays` and `unknown` in categorical columns
 - Replaced those anomalies with `NaN` to treat them as missing values
 - Rechecked the data to confirm cleaning worked
