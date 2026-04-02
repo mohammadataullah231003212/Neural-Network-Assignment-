@@ -10,22 +10,22 @@ A Logistic Regression Model to predict if a bank customer will subscribe to a te
 
 ## Methodology (Step by Step)
 
-1. Imported all required libraries
-2. Loaded the dataset using pandas with `;` as delimiter
-3. Explored the data to understand structure and class distribution
-4. Detected anomalies like `-1` in `pdays` and `unknown` in categorical columns
-5. Replaced those anomalies with `NaN` to treat them as missing values
-6. Rechecked the data to confirm cleaning worked
-7. Filled missing values — used most frequent value for some columns, `"none"` for others
-8. Clipped outliers in numerical columns like `balance`, `duration`, `campaign`
-9. Encoded target variable (`yes/no` → `1/0`) and applied one-hot encoding to categorical features
-10. Split data into features (X) and target (y)
-11. Did an 80/20 train-test split
-12. Scaled features using StandardScaler
-13. Trained a Logistic Regression model with `class_weight='balanced'`
-14. Evaluated the model using accuracy, precision, recall, F1, and confusion matrix
-15. Applied Grid Search for hyperparameter tuning
-16. Re-evaluated the model after tuning and compared results
+- Imported all required libraries
+- Loaded the dataset using pandas with `;` as delimiter
+- Explored the data to understand structure and class distribution
+- Detected anomalies like `-1` in `pdays` and `unknown` in categorical columns
+- Replaced those anomalies with `NaN` to treat them as missing values
+- Rechecked the data to confirm cleaning worked
+- Filled missing values — used most frequent value for some columns, `"none"` for others
+- Clipped outliers in numerical columns like `balance`, `duration`, `campaign`
+- Encoded target variable (`yes/no` → `1/0`) and applied one-hot encoding to categorical features
+- Split data into features (X) and target (y)
+- Did an 80/20 train-test split
+- Scaled features using StandardScaler
+- Trained a Logistic Regression model with `class_weight='balanced'`
+- Evaluated the model using accuracy, precision, recall, F1, and confusion matrix
+- Applied Grid Search for hyperparameter tuning
+- Re-evaluated the model after tuning and compared results
 
 ## Libraries Used
 
