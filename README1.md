@@ -81,6 +81,7 @@ The model ended up predicting **PNEUMONIA for every single image**. So it caught
 This happened because of the strong recall pressure from class weights + monitoring val_recall. The model basically took a shortcut — "just say PNEUMONIA every time and you'll never miss a case."
 
 The ROC AUC of 0.72 is more encouraging though — the raw probabilities do have some discriminative ability. At the default 0.5 threshold everything tips to PNEUMONIA, but adjusting the threshold could give a more balanced result.
-
-The tiny validation set (only 16 images) also made training unreliable — one wrong prediction swings the metric by 6%.
+## Limitations
+- The validation set has only 16 images, which is too small to properly check how well the model is working. one wrong prediction swings the metric by 6%. It  made training unreliable
+- The model ended up predicting every image as PNEUMONIA, which is not correct.
 
