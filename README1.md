@@ -45,9 +45,6 @@ TensorFlow Version : 2.19.0
 GPU Available       : []
 All libraries loaded successfully!
 
-**Note:** The GPU list came back empty, which means training ran on CPU. This explains the very long epoch times — each epoch took approximately 593–601 seconds. In future runs, enabling a GPU runtime in Colab would reduce this significantly.
-
-
 ## Step 2: Loading the Dataset & Verifying Directory Structure
 
 After mounting Google Drive, I defined the paths to the training, validation, and test directories and printed the image counts per class to make sure the data was structured correctly.
@@ -426,12 +423,6 @@ The ROC AUC of 0.7283 tells a more nuanced story than the accuracy or confusion 
 - The ROC AUC of **0.7283** suggests the model has some underlying discriminative ability, but the threshold needs to be adjusted
 - The extremely small validation set (16 images) made validation metrics during training unreliable
 - Training on CPU was very slow (~600 seconds per epoch), limiting the number of experiments that could be run
-
-**What could be improved:**
-- Increasing the validation set size — 16 images is far too small to guide meaningful early stopping
-- Adjusting the classification threshold (e.g., from 0.5 to 0.7 or higher) to improve specificity while maintaining high recall
-- Trying transfer learning (VGG16, ResNet50, MobileNetV2 were already imported) which would likely outperform a custom CNN on this small dataset
-- Enabling GPU runtime in Google Colab to allow more epochs and hyperparameter experiments
 
 ## Medical Context
 
